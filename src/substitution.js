@@ -28,8 +28,6 @@ const substitutionModule = (function () {
         encodedArray.push(character);
       }
     }
-
-    // DECODING SECTION:
     if (!encode) {
       findAlphabetIndexOfCharacter(
         splitArray,
@@ -37,7 +35,6 @@ const substitutionModule = (function () {
         normalAlphabet
       );
     } else {
-      // ENCODING SECTION:
       findAlphabetIndexOfCharacter(
         splitArray,
         normalAlphabet,
